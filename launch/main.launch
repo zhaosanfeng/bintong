@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="bintong" type="node_mini_factory_server" name="node_mini_factory_server" output="screen"/>
+  <node pkg="bintong" type="node_robot_1" name="node_robot_1" output="screen"/>
+  <node pkg="bintong" type="node_robot_2" name="node_robot_2" output="screen"/>
+</launch>
